@@ -37,7 +37,8 @@ fun ItemText(text: String, color: Color) {
 //UI Element for displaying a button
 @Composable
 fun PrimaryTextButton(text: String, onClick: () -> Unit) {
-    TextButton(text = text,
+    TextButton(
+        text = text,
         textColor = Color.White,
         onClick = onClick
     )
